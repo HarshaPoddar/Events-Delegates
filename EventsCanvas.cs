@@ -58,7 +58,7 @@ namespace EventsAndDelegates
                 Answer = position.click(xCoordinates,yCoordinates);
                 if (Answer == "true")
                 {
-                    Console.WriteLine("Clicked in the Canvas at x-coordinate at {0} cms and y-coordinates at {1} cms.:", x, yCoordinates);
+                    Console.WriteLine("Clicked in the Canvas at x-coordinate at {0} cms and y-coordinates at {1} cms.:", xCoordinates, yCoordinates);
 
                 }
                 else
